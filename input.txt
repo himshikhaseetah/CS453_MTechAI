@@ -1,0 +1,27 @@
+25mcmi01 Alice Johnson
+Maths 4 32 55
+Physics 4 28 60
+Chemistry 4 30 58
+Biology 3 35 50
+English 3 38 56
+
+25mcmi02 Bob Smith
+Maths 4 18 45
+Physics 4 22 48
+Chemistry 4 20 46
+Biology 3 25 42
+English 3 28 40
+
+25mcmi03 Carol White
+DataStructures 4 36 58
+OperatingSystems 4 34 60
+Networks 4 32 55
+Databases 3 30 50
+ElectiveAI 3 38 59
+
+25mcmi04 David Kumar
+Maths 4 40 60
+Physics 4 38 58
+Chem 4 36 56
+Biology 3 34 54
+English 3 39 60
