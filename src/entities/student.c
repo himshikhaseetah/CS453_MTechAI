@@ -1,7 +1,7 @@
 #include "entities/entities.h"
 #include "string.h"
 
-
+// Constructor
 Student InitStudent(char *id, char *name) {
     Student st;
     strncpy(st.id, id, MAX_ID);

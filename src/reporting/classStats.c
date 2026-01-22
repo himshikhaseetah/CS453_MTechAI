@@ -6,7 +6,7 @@ void PrintClassStats(FILE *fp, Class *c)
 {
     fprintf(fp, "\n===================================== CLASS STATISTICS =====================================\n");
     fprintf(fp, "Class Average Percentage: %.2f\n", c->avg_percentage);
-    fprintf(fp, "Highest Percentage: %.2f\n", c->avg_percentage);
+    fprintf(fp, "Highest Percentage: %.2f\n", c->max_percentage);
     fprintf(fp, "Lowest Percentage : %.2f\n", c->min_percentage);
 
     fprintf(fp, "\nGrade Distribution:\n");

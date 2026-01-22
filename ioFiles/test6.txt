@@ -1,0 +1,77 @@
+
+===================================== STUDENT RESULTS =====================================
+
+Student: 25mcmi01 (Alice Johnson)
+--------------------------------------------------------------------------------------
+Subject               Minor  Major   Total  Credits   CPts Grade     GPts Result  
+Maths                    32     55      87        4     36 A+           9 PASS    
+Physics                  28     60      88        4     36 A+           9 PASS    
+Chemistry                30     58      88        4     36 A+           9 PASS    
+Biology                  35     50      85        3     27 A+           9 PASS    
+English                  40     60     100        3     30 O           10 PASS    
+--------------------------------------------------------------------------------------
+Total Marks: 448
+Percentage : 89.60
+Total Credit Points: 165
+CGPA: 9.17
+-------------------------------------------------------------------------------------------
+
+Student: Bob (Smith)
+--------------------------------------------------------------------------------------
+Subject               Minor  Major   Total  Credits   CPts Grade     GPts Result  
+Maths                    18     45      63        4     24 B            6 PASS    
+Physics                  22     48      70        4     28 B+           7 PASS    
+Chemistry                20     46      66        4     28 B+           7 PASS    
+Biology                  25     42      67        3     21 B+           7 PASS    
+English                  28     40      68        3     21 B+           7 PASS    
+--------------------------------------------------------------------------------------
+Total Marks: 334
+Percentage : 66.80
+Total Credit Points: 122
+CGPA: 6.78
+-------------------------------------------------------------------------------------------
+
+Student: 24mcmi02 (David)
+--------------------------------------------------------------------------------------
+Subject               Minor  Major   Total  Credits   CPts Grade     GPts Result  
+Maths                    40     60     100        4     40 O           10 PASS    
+Physics                  35     50      85        4     36 A+           9 PASS    
+Chemistry                30     45      75        4     32 A            8 PASS    
+Biology                  26     39      65        3     21 B+           7 PASS    
+English                  24     36      60        3     18 B            6 PASS    
+--------------------------------------------------------------------------------------
+Total Marks: 385
+Percentage : 77.00
+Total Credit Points: 147
+CGPA: 8.17
+-------------------------------------------------------------------------------------------
+
+Student: 25MCMT01 (H Joe)
+--------------------------------------------------------------------------------------
+Subject               Minor  Major   Total  Credits   CPts Grade     GPts Result  
+Maths                    32     55      87        4     36 A+           9 PASS    
+Physics                  28     60      88        4     36 A+           9 PASS    
+Chemistry                30     58      88        4     36 A+           9 PASS    
+Biology                  35     50      85        3     27 A+           9 PASS    
+English                  38     56      94        3     30 O           10 PASS    
+--------------------------------------------------------------------------------------
+Total Marks: 442
+Percentage : 88.40
+Total Credit Points: 165
+CGPA: 9.17
+-------------------------------------------------------------------------------------------
+
+===================================== CLASS STATISTICS =====================================
+Class Average Percentage: 80.45
+Highest Percentage: 89.60
+Lowest Percentage : 66.80
+
+Grade Distribution:
+O : 0
+A+: 2
+A : 1
+B+: 1
+B : 0
+C : 0
+D : 0
+F : 0

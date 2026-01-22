@@ -1,0 +1,62 @@
+
+===================================== STUDENT RESULTS =====================================
+
+Student: 24mcmi07 (Ru Neo)
+--------------------------------------------------------------------------------------
+Subject               Minor  Major   Total  Credits   CPts Grade     GPts Result  
+Maths                    40     60     100        4     40 O           10 PASS    
+Physics                  35     50      85        4     36 A+           9 PASS    
+Psychology               30     45      75        4     32 A            8 PASS    
+Biology                  26     39      65        3     21 B+           7 PASS    
+English                  24     36      60        3     18 B            6 PASS    
+--------------------------------------------------------------------------------------
+Total Marks: 385
+Percentage : 77.00
+Total Credit Points: 147
+CGPA: 8.17
+-------------------------------------------------------------------------------------------
+
+Student: 24mcmi02 (David)
+--------------------------------------------------------------------------------------
+Subject               Minor  Major   Total  Credits   CPts Grade     GPts Result  
+Maths                    22     33      55        4     20 C            5 PASS    
+Physics                  20     30      50        4     16 D            4 PASS    
+Chemistry                19     29      48        4      0 F            0 FAIL    
+Biology                   0      0       0        3      0 F            0 FAIL    
+English                  39     50      89        3     27 A+           9 PASS    
+--------------------------------------------------------------------------------------
+Total Marks: 242
+Percentage : 48.40
+Total Credit Points: 63
+CGPA: 3.50
+-------------------------------------------------------------------------------------------
+
+Student: 25MCMT01 (H Joe)
+--------------------------------------------------------------------------------------
+Subject               Minor  Major   Total  Credits   CPts Grade     GPts Result  
+Maths                    37     53      90        4     40 O           10 PASS    
+Physics                  25     25      50        4     16 D            4 PASS    
+Chemistry                25     24      49        4      0 F            0 FAIL    
+Biology                  35     55      90        3     30 O           10 PASS    
+English                  34     50      84        3     24 A            8 PASS    
+--------------------------------------------------------------------------------------
+Total Marks: 363
+Percentage : 72.60
+Total Credit Points: 110
+CGPA: 6.11
+-------------------------------------------------------------------------------------------
+
+===================================== CLASS STATISTICS =====================================
+Class Average Percentage: 66.00
+Highest Percentage: 77.00
+Lowest Percentage : 48.40
+
+Grade Distribution:
+O : 0
+A+: 0
+A : 1
+B+: 1
+B : 0
+C : 0
+D : 0
+F : 1

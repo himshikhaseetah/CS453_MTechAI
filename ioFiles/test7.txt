@@ -1,0 +1,47 @@
+
+===================================== STUDENT RESULTS =====================================
+
+Student: 25mcmi01 (Alice Johnson)
+--------------------------------------------------------------------------------------
+Subject               Minor  Major   Total  Credits   CPts Grade     GPts Result  
+Maths                    32     55      87        4     36 A+           9 PASS    
+Physics                  28     60      88        4     36 A+           9 PASS    
+Chemistry                30     58      88        4     36 A+           9 PASS    
+Biology                  35     50      85        3     27 A+           9 PASS    
+English                  40     60     100        3     30 O           10 PASS    
+--------------------------------------------------------------------------------------
+Total Marks: 448
+Percentage : 89.60
+Total Credit Points: 165
+CGPA: 9.17
+-------------------------------------------------------------------------------------------
+
+Student: 25MCMT01 (H Joe)
+--------------------------------------------------------------------------------------
+Subject               Minor  Major   Total  Credits   CPts Grade     GPts Result  
+Maths                    32     55      87        4     36 A+           9 PASS    
+Physics                  28     60      88        4     36 A+           9 PASS    
+Chemistry                30     58      88        4     36 A+           9 PASS    
+Biology                  35     50      85        3     27 A+           9 PASS    
+English                  38     56      94        3     30 O           10 PASS    
+--------------------------------------------------------------------------------------
+Total Marks: 442
+Percentage : 88.40
+Total Credit Points: 165
+CGPA: 9.17
+-------------------------------------------------------------------------------------------
+
+===================================== CLASS STATISTICS =====================================
+Class Average Percentage: 89.00
+Highest Percentage: 89.60
+Lowest Percentage : 88.40
+
+Grade Distribution:
+O : 0
+A+: 2
+A : 0
+B+: 0
+B : 0
+C : 0
+D : 0
+F : 0

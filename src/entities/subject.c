@@ -1,7 +1,7 @@
 #include "entities/entities.h"
 #include <string.h>
 
-
+// Constructor
 Subject InitSubject(char *name, int credits, int minor, int major) {
     Subject s;
     strncpy(s.name, name, MAX_SUBJECT_NAME);

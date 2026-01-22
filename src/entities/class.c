@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
+// Constructor
 Class InitClass(int count)
 {
     Class c;
@@ -16,6 +17,9 @@ Class InitClass(int count)
     return c;
 }
 
+// Args: class obj, list of students, #students
+// Aggregates the max & min percentages among students, 
+// average class percentage & the number of students having scored each grade (O to F)
 void ComputeClassStatistics(Class *c, Student students[], int n)
 {
     float sum = 0;

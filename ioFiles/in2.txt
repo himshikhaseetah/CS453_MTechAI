@@ -1,0 +1,20 @@
+24mcmi07 Ru Neo
+Maths 4 40 60
+Physics 4 35 50
+Psychology 4 30 45
+Biology 3 26 39
+English 3 24 36
+
+24mcmi02 David
+Maths 4 22 33
+Physics 4 20 30
+Chemistry 4 19 29
+Biology 3 0 0
+English 3 39 50
+
+25MCMT01 H Joe
+Maths 4 37 53
+Physics 4 25 25
+Chemistry 4 25 24
+Biology 3 35 55
+English 3 34 50
