@@ -7,10 +7,10 @@
 #include "validation/validation.h"
 #define MAX_FILENAME 15
 
-// Usage Example: ./srps
+// Usage Example: ./srps input.txt output.txt
 
-int main()
-{    
+int main(int argc, char *argv[])
+{
     char inFile[MAX_FILENAME], outFile[MAX_FILENAME];
     FILE *infp, *outfp;
     char buffer[256];
@@ -20,9 +20,21 @@ int main()
     printf("\n This is a command-line program to calculate individual student results and class performance statistics.\n");
     printf(" List of students along with set of subjects, each having number of credits and the awarded minor and major marks is required as input file.\n");
     printf(" After processing input file, a consolidated results report will be printed to a text file\n");
-    
-    printf("\n Enter file name for students marks input file (Accepted File Format: .txt): \n");
-    scanf("%s", inFile);
+
+    if (argc == 3)
+    {
+        strcpy(inFile, argv[1]);
+        strcpy(outFile, argv[2]);
+    }
+    else
+    {
+        printf("\n Enter file name for students marks input file (Accepted File Format: .txt): \n");
+        scanf("%s", inFile);
+
+        printf("\n Enter file name for results report (Accepted File Format: .txt): \n");
+        scanf("%s", outFile);
+    }
+
     if (!ValidateFile(inFile))
     {
         printf("Invalid input file given. Please ensure filename does not have any special characters and is a .txt file only.\n");
@@ -38,8 +50,6 @@ int main()
         }
     }
 
-    printf("\n Enter file name for results report (Accepted File Format: .txt): \n");
-    scanf("%s", outFile);
     if (!ValidateFile(outFile))
     {
         printf("Invalid output file given. Please ensure filename does not have any special characters and is a .txt file only.\n");
@@ -78,13 +88,13 @@ int main()
 
             // Consume the newline left in buffer from fscanf
             fgetc(infp);
-            
-            // Skip the subject lines for this invalid student            
+
+            // Skip the subject lines for this invalid student
             for (int i = 0; i < MAX_SUBJECTS; i++)
             {
                 if (fgets(buffer, sizeof(buffer), infp) == NULL)
                     break;
-            }                
+            }
 
             continue;
         }
@@ -92,26 +102,25 @@ int main()
         if (!CheckDuplicateId(students, student_count, id))
         {
             fprintf(stderr, "Duplicate student ID. Skipping duplicate student (%s).\n", id);
-            
+
             // Consume the newline left in buffer from fscanf
             fgetc(infp);
 
-            // Skip the subject lines for this invalid student            
+            // Skip the subject lines for this invalid student
             for (int i = 0; i < MAX_SUBJECTS; i++)
             {
                 if (fgets(buffer, sizeof(buffer), infp) == NULL)
                     break;
-            }                
+            }
 
             continue;
-
         }
 
         Student st = InitStudent(id, name);
 
         int valid = 1;
         char buffer[256];
-        
+
         for (int i = 0; i < MAX_SUBJECTS; i++)
         {
             char subName[MAX_SUBJECT_NAME];
@@ -121,11 +130,11 @@ int main()
             {
                 valid = 0;
                 fprintf(stderr, "Expecting subject info as: [subjectName #credits minorMarks majorMarks] Skipping student (%s).\n", id);
-                
+
                 // Consume rest of current line
                 fgets(buffer, sizeof(buffer), infp);
-                
-                // Skip remaining subject lines for this student                
+
+                // Skip remaining subject lines for this student
                 for (int j = i + 1; j < MAX_SUBJECTS; j++)
                 {
                     if (fgets(buffer, sizeof(buffer), infp) == NULL)
@@ -138,10 +147,10 @@ int main()
             {
                 fprintf(stderr, "Invalid or missing subject info for %s. Skipping student (%s).\n", subName, st.id);
                 valid = 0;
-                
+
                 // Consume rest of current line
                 fgets(buffer, sizeof(buffer), infp);
-                
+
                 // Skip remaining subject lines for this student
                 for (int j = i + 1; j < MAX_SUBJECTS; j++)
                 {
@@ -177,6 +186,6 @@ int main()
     fclose(infp);
     fclose(outfp);
 
-    printf("Results written successfully to file\n");
+    printf(" Results written successfully to file\n");
     return 0;
 }
