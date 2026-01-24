@@ -1,0 +1,41 @@
+24mcmi07 Ru Neo
+Maths 4 40 60
+Physics 4 40 60
+Psychology 4 40 60
+Biology 3 40 60
+English 3 40 60
+
+24mcmi02 David
+Maths 4 35 50
+Physics 4 35 50
+Chemistry 4 35 50
+Biology 3 35 50
+English 3 35 50
+
+25MCMT01 H Joe
+Maths 4 24 36
+Physics 4 24 36
+Chemistry 4 24 36
+Biology 3 24 36
+English 3 24 36
+
+24mcmi100 Tom Jim
+Maths 4 22 33
+Physics 4 22 33
+Psychology 4 22 33
+Biology 3 22 33
+English 3 22 33
+
+24mpmi02 Ela
+Maths 4 20 30
+Physics 4 20 30
+Chemistry 4 20 30
+Biology 3 20 30
+English 3 20 30
+
+25MCMT65 Uma Ali
+Maths 4 19 29
+Physics 4 19 29
+Chemistry 4 0 0
+Biology 3 0 0
+English 3 0 0
